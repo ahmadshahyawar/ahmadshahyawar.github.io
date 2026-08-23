@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ahmad Shah Yawar · Academic CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.08);
+            padding: 2.5rem;
+        }
+        .header {
+            border-bottom: 2px solid #e9edf2;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.8rem;
+        }
+        .header h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #0f172a;
+        }
+        .header .subhead {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #334155;
+        }
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem 1.8rem;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+        .contact-links a {
+            color: #1e293b;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .contact-links a:hover { color: #2563eb; }
+        .contact-links i { width: 1.2rem; color: #475569; }
+        .section { margin-bottom: 2rem; }
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: #475569;
+            border-bottom: 2px solid #e9edf2;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
+        .entry { margin-bottom: 1.2rem; }
+        .entry-header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .entry-title { font-weight: 700; font-size: 1.05rem; color: #0f172a; }
+        .entry-org { font-weight: 600; color: #1e293b; }
+        .entry-date { font-size: 0.9rem; color: #64748b; font-weight: 500; }
+        .entry-desc { margin-top: 0.2rem; padding-left: 0; list-style: none; }
+        .entry-desc li {
+            padding-left: 1.2rem;
+            position: relative;
+        }
+        .entry-desc li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: 700;
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 0.8rem;
+            margin-top: 0.3rem;
+        }
+        .skill-tag {
+            background: #f1f5f9;
+            padding: 0.2rem 0.9rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .pub-item { margin-bottom: 0.7rem; }
+        .pub-item strong { font-weight: 600; }
+        .pub-status {
+            background: #f1f5f9;
+            padding: 0.1rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #475569;
+            display: inline-block;
+            margin-left: 0.4rem;
+        }
+        .pub-link { display: inline-block; margin-top: 0.2rem; font-size: 0.9rem; }
+        .pub-link a { color: #2563eb; text-decoration: none; border-bottom: 1px dotted #2563eb; }
+        .pub-link a:hover { border-bottom: 1px solid #2563eb; }
+
+        @media (max-width: 650px) {
+            .container { padding: 1.5rem; }
+            .header h1 { font-size: 1.8rem; }
+            .contact-links { flex-direction: column; gap: 0.4rem; }
+            .entry-header { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header class="header">
+        <h1>Ahmad Shah Yawar</h1>
+        <div class="subhead">MSc Student in Computer Science</div>
+        <div class="subhead" style="font-weight:400; font-size:1rem; color:#475569;">
+            Al-Farabi Kazakh National University
+        </div>
+        <div class="contact-links">
+            <a href="mailto:yavar_akhmad_shakh2@live.kaznu.kz"><i class="fas fa-envelope"></i> yavar_akhmad_shakh2@live.kaznu.kz</a>
+            <a href="mailto:ahmadshahyawar@gmail.com"><i class="fas fa-envelope"></i> ahmadshahyawar@gmail.com</a>
+            <a href="https://orcid.org/0009-0005-6107-0023" target="_blank">
+                <i class="fab fa-orcid" style="color:#a6ce39;"></i> ORCID 0009-0005-6107-0023
+            </a>
+            <a href="https://github.com/ahmadshahyawar" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/ahmad-shah-yawar-1735112b6/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">Research Interests</h2>
+        <div class="skill-tags">
+            <span class="skill-tag">AI/ML for Environmental Monitoring &amp; Disaster Prediction</span>
+            <span class="skill-tag">Computer Vision (Crack Detection, Flood Detection)</span>
+            <span class="skill-tag">Enterprise Data Warehousing &amp; Analytics</span>
+            <span class="skill-tag">Intelligent Monitoring Systems</span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">MSc Computer Science</span>
+                <span class="entry-date">2025 – 2027</span>
+            </div>
+            <div class="entry-org">Al-Farabi Kazakh National University</div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">BSc Computer Science</span>
+                <span class="entry-date">2021 – 2025</span>
+            </div>
+            <div class="entry-org">Al-Farabi Kazakh National University</div>
+            <div style="margin-top:0.2rem; font-size:0.95rem; color:#334155;">Graduated with Distinction (Red Diploma)</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Publications &amp; Presentations</h2>
+        <div class="pub-item">
+            <strong>Leveraging Enterprise Data Warehousing to Improve Web-Based Sales Operations</strong>
+            <span class="pub-status">Presented at DTESI 2025</span>
+            <br/>
+            <span style="font-size:0.95rem; color:#475569;">
+                Authors: Lyazat Naizabayeva, Gulzat Turken, Rahim Ahmed Druba, Ahmad Shah Yawar
+                <br/>
+                10th International Conference on Digital Technologies in Education, Science and Industry, Almaty, Kazakhstan, November 19–20, 2025.
+                <span style="display:inline-block; background:#fef9c3; padding:0.05rem 0.6rem; border-radius:20px; font-size:0.75rem; font-weight:500; margin-left:0.3rem; color:#854d0e;">Proceedings publication pending</span>
+            </span>
+            <br/>
+            <span class="pub-link">
+                <i class="fas fa-file-pdf" style="color:#dc2626;"></i>
+                <a href="https://dtesi.iitu.edu.kz/files/DTESI-2025-Program.pdf" target="_blank">View Conference Program (PDF) – Paper #63</a>
+            </span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Research Experience</h2>
+        <ul style="list-style:none; padding-left:0;">
+            <li style="margin-bottom:0.4rem; padding-left:1.2rem; position:relative;">
+                <span style="position:absolute; left:0; color:#2563eb; font-weight:700;">•</span>
+                <strong>Tunnel Crack Detection using Deep Learning</strong>
+            </li>
+            <li style="margin-bottom:0.4rem; padding-left:1.2rem; position:relative;">
+                <span style="position:absolute; left:0; color:#2563eb; font-weight:700;">•</span>
+                <strong>AI-Based Flood Detection and Early Warning Systems</strong>
+            </li>
+            <li style="margin-bottom:0.4rem; padding-left:1.2rem; position:relative;">
+                <span style="position:absolute; left:0; color:#2563eb; font-weight:700;">•</span>
+                <strong>Enterprise Data Warehousing for Sales Operations</strong>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">REST APIs</span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Achievements</h2>
+        <ul style="list-style:none; padding-left:0;">
+            <li style="padding-left:1.2rem; position:relative; margin-bottom:0.3rem;">
+                <span style="position:absolute; left:0; color:#2563eb; font-weight:700;">•</span>
+                <strong>First Place</strong> – Digital Farabi Competition (Safe Taxi Project)
+            </li>
+            <li style="padding-left:1.2rem; position:relative;">
+                <span style="position:absolute; left:0; color:#2563eb; font-weight:700;">•</span>
+                <strong>Graduated with Distinction</strong> (Red Diploma), Al-Farabi Kazakh National University
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Languages</h2>
+        <div class="skill-tags">
+            <span class="skill-tag">Dari / Pashto <span style="font-weight:400; color:#64748b;">(Native)</span></span>
+            <span class="skill-tag">English <span style="font-weight:400; color:#64748b;">(Fluent – IELTS/TOEFL certified)</span></span>
+            <span class="skill-tag">Kazakh / Russian <span style="font-weight:400; color:#64748b;">(Working knowledge)</span></span>
+        </div>
+    </section>
+
+    <footer style="margin-top:2.5rem; padding-top:1rem; border-top:1px solid #e9edf2; font-size:0.85rem; color:#94a3b8; text-align:center;">
+        <span>Ahmad Shah Yawar · ORCID 0009-0005-6107-0023 · Last updated August 2026</span>
+    </footer>
+
+</div>
+</body>
+</html>
